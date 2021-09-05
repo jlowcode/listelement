@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+    <fields  name="params">
+        <fieldset name="plg-element-listelement" label="COM_FABRIK_OPTIONS">
+            <field name="listform_cnn" type="connections"
+                   description="PLG_FORM_LISTFORM_CONNECTION_DESC"
+                   label="PLG_FORM_LISTFORM_CONNECTION_LABEL"
+                   repeat="true"/>
+            
+            <field name="listform_field_name" type="listfields"
+                   description="PLG_FORM_LISTFORM_FIELD_NAME_DESC"
+                   label="PLG_FORM_LISTFORM_FIELD_NAME_LABEL"
+                   onlytablefields="0"
+                   repeat="true"                   
+                   valueformat="tableelement"/>
+            
+            <field name="listform_table_filter" type="fabriktables"
+                   description="PLG_FORM_LISTFORM_TABLE_FILTER_DESC"
+                   label="PLG_FORM_LISTFORM_TABLE_FILTER_LABEL"
+                   observe="params_listform_cnn"
+                   repeat="true" />
+            
+            <field name="listform_field_filter" type="listfields"
+                   description="PLG_FORM_LISTFORM_FIELD_FILTER_DESC"
+                   label="PLG_FORM_LISTFORM_FIELD_FILTER_LABEL"
+                   connection="params_listform_cnn"
+                   table="params_listform_table_filter"
+                   onlytablefields="0"
+                   valueformat="tableelement"
+                   repeat="true"/>
+        </fieldset>
+    </fields>
+</form>
