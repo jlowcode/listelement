@@ -2,6 +2,10 @@
 
 O objetivo desse plugin é permitir a exibição de uma lista vinculada na página de visualização de um registro. Um exemplo de utilização, são os comentários. Um comentário seria uma lista (id_comment, id_filme, date, nome, email, mensagem) que ficaria vinculada a lista principal (ex. Filmes), e ao visualizar um filme, no lugar do elemento *list details*, é exibido o formulário para adicionar um comentário. No entanto, para conseguir usar este plugin devem ser criadas duas listas, estando uma vinculada a outra.
 
+### Conteúdo
+- [Configuração](#configuração)
+  - [Options](#options)
+
 ## Configuração
 
 Para utilizar este plugin acesse **Components > Fabrik > Elements > New**, e em "**Plug-in***" selecione a opcão "**listelement**".
