@@ -8,7 +8,7 @@ O objetivo desse plugin é permitir a exibição de uma lista vinculada na pági
 
 ## Configuração
 
-Para utilizar este plugin acesse **Components > Fabrik > Elements > New**, e em "**Plug-in***" selecione a opcão "**listelement**".
+Para utilizar este plugin acesse **Components > Fabrik > Elements > New**, e em `Plug-in` selecione a opcão `listelement`.
 
 <img src="/images/1.png" width="900px" />
 
@@ -16,7 +16,7 @@ Para utilizar este plugin acesse **Components > Fabrik > Elements > New**, e em 
 
 <img src="/images/2.png" width="900px" />
 
-- **Connection**: conexão com o banco de dados.
-- **Field**: campo de formulário vinculado ao filtro da tabela filha.
-- **Filter list**: lista que aparecerá na estrutura de detalhes para compor junto com os formulários que são referenciados.
-- **Filter field**: campo de lista referenciada que servirá como filtro para não trazer todos os resultados da lista selecionada no "**Filter list**".
+- `Connection`: conexão com o banco de dados.
+- `Field`: campo de formulário vinculado ao filtro da tabela filha.
+- `Filter list`: lista que aparecerá na estrutura de detalhes para compor junto com os formulários que são referenciados.
+- `Filter field`: campo de lista referenciada que servirá como filtro para não trazer todos os resultados da lista selecionada no `Filter list`.
